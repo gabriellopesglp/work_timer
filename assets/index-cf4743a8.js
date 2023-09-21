@@ -312,7 +312,7 @@ Error generating stack: `+o.message+`
     outline: 0;
     box-shadow: 0 0 0 2px ${e=>e.theme["red-500"]};
   }
-`,d2=G_({task:X_().min(1,"Informe a tarefa"),minutesAmount:K_().min(5).max(60)});function f2(){const{createNewCycle:e,interruptCurrentCycle:t,activeCycle:n}=T.useContext(po),r=$_({resolver:e2(d2),defaultValues:{task:"",minutesAmount:0}}),{handleSubmit:i,watch:o,reset:a}=r;function s(d){e(d),a()}const u=!o("task");return J(l2,{children:Je("form",{onSubmit:i(s),action:"",children:[J(w_,{...r,children:J(i2,{})}),J(s2,{}),n?Je(c2,{onClick:t,type:"button",children:[J(iw,{size:24}),"Interromper"]}):Je(u2,{disabled:u,type:"submit",children:[J(aw,{size:24}),"Começar"]})]})})}function h2(){return J(Zg,{children:Je(Yo,{path:"/",element:J(hw,{}),children:[J(Yo,{path:"/",element:J(f2,{})}),J(Yo,{path:"/history",element:J(h_,{})})]})})}const p2=J1`
+`,d2=G_({task:X_().min(1,"Informe a tarefa"),minutesAmount:K_().min(5).max(60)});function f2(){const{createNewCycle:e,interruptCurrentCycle:t,activeCycle:n}=T.useContext(po),r=$_({resolver:e2(d2),defaultValues:{task:"",minutesAmount:0}}),{handleSubmit:i,watch:o,reset:a}=r;function s(d){e(d),a()}const u=!o("task");return J(l2,{children:Je("form",{onSubmit:i(s),action:"",children:[J(w_,{...r,children:J(i2,{})}),J(s2,{}),n?Je(c2,{onClick:t,type:"button",children:[J(iw,{size:24}),"Interromper"]}):Je(u2,{disabled:u,type:"submit",children:[J(aw,{size:24}),"Começar"]})]})})}function h2(){return J(Zg,{children:Je(Yo,{path:"/work_timer",element:J(hw,{}),children:[J(Yo,{path:"/work_timer",element:J(f2,{})}),J(Yo,{path:"/work_timer/history",element:J(h_,{})})]})})}const p2=J1`
     * {
         margin: 0;
         padding: 0;
